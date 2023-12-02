@@ -1,1 +1,1 @@
-new DataTable('#dataTable');
+new DataTable("#dataTable");
