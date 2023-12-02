@@ -26,8 +26,8 @@ include '../components/header.php';
         <ul class="menu-inner py-1">
           <!-- Dashboard -->
           <li class="menu-item active">
-            <a href="index.html" class="menu-link">
-              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+            <a href="Dashboard.php" class="menu-link">
+              <i class="menu-icon tf-icons bx bxs-dashboard"></i>
               <div data-i18n="Analytics">Dashboard</div>
             </a>
           </li>
@@ -37,12 +37,12 @@ include '../components/header.php';
           </li>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-dock-top"></i>
+              <i class="menu-icon tf-icons bx bx-cart-alt"></i>
               <div data-i18n="Account Settings">Purchase Order</div>
             </a>
             <ul class="menu-sub">
               <li class="menu-item">
-                <a href="./Purchase_order_list.php" class="menu-link">
+                <a href="Purchase_order_list.php" class="menu-link">
                   <div data-i18n="Account">Purchase Order List</div>
                 </a>
               </li>
@@ -55,7 +55,7 @@ include '../components/header.php';
           </li>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+              <i class="menu-icon tf-icons bx bx-exit"></i>
               <div data-i18n="Authentications">Receive</div>
             </a>
             <ul class="menu-sub">
@@ -68,7 +68,7 @@ include '../components/header.php';
           </li>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon tf-icons bx bx-food-menu"></i>
               <div data-i18n="Misc">Back Order</div>
             </a>
             <ul class="menu-sub">
@@ -81,7 +81,7 @@ include '../components/header.php';
           </li>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon tf-icons bx bx-box"></i>
               <div data-i18n="Misc">Stocks</div>
             </a>
             <ul class="menu-sub">
@@ -112,7 +112,7 @@ include '../components/header.php';
 
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon tf-icons bx bx-notepad"></i>
               <div data-i18n="Misc">Request Order</div>
             </a>
             <ul class="menu-sub">
@@ -130,7 +130,7 @@ include '../components/header.php';
           <!-- User interface -->
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-box"></i>
+              <i class="menu-icon tf-icons bx bx-building-house"></i>
               <div data-i18n="User interface">Districts</div>
             </a>
             <ul class="menu-sub">
@@ -145,7 +145,7 @@ include '../components/header.php';
           <!-- Extended components -->
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bxs-institution"></i>
               <div data-i18n="Extended UI">Barangays</div>
             </a>
             <ul class="menu-sub">
@@ -160,7 +160,7 @@ include '../components/header.php';
 
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bx-folder-plus"></i>
               <div data-i18n="Extended UI">Programs</div>
             </a>
             <ul class="menu-sub">
@@ -175,7 +175,7 @@ include '../components/header.php';
 
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bx-user-pin"></i>
               <div data-i18n="Extended UI">Suppliers</div>
             </a>
             <ul class="menu-sub">
@@ -190,7 +190,7 @@ include '../components/header.php';
 
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bx-package"></i>
               <div data-i18n="Extended UI">Items</div>
             </a>
             <ul class="menu-sub">
@@ -205,7 +205,7 @@ include '../components/header.php';
 
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bx-user"></i>
               <div data-i18n="Extended UI">Users</div>
             </a>
             <ul class="menu-sub">
@@ -225,7 +225,7 @@ include '../components/header.php';
           <!-- Forms -->
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-detail"></i>
+              <i class="menu-icon tf-icons bx bx-user-circle"></i>
               <div data-i18n="Form Elements">Account</div>
             </a>
 
