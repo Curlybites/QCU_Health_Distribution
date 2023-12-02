@@ -55,12 +55,12 @@ include'../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-exit bx-rotate-90"></i>
+              <i class="menu-icon tf-icons bx bx-exit"></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                  <a href="Receive_order_list.php" class="menu-link" target="_blank">
                     <div data-i18n="Basic">Receive Order List</div>
                   </a>
                 </li>
@@ -73,7 +73,7 @@ include'../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
+                  <a href="Back_order_list.php" class="menu-link">
                     <div data-i18n="Error">Back Order List</div>
                   </a>
                 </li>
@@ -86,7 +86,7 @@ include'../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
+                  <a href="Stocks_list.php" class="menu-link">
                     <div data-i18n="Error">List of Stocks</div>
                   </a>
                 </li>
@@ -95,15 +95,15 @@ include'../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-sitemap"></i>
+                <i class="menu-icon tf-icons bx bxs-truck"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
+                  <a href="Distribution_list.php" class="menu-link">
                     <div data-i18n="Error">Distribution List</div>
                   </a>
-                   <a href="pages-misc-error.html" class="menu-link">
+                   <a href="Add_distribution_list.php" class="menu-link">
                     <div data-i18n="Error">Add Distribution</div>
                   </a>
                 </li>
@@ -117,7 +117,7 @@ include'../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
+                  <a href="Request_list.php" class="menu-link">
                     <div data-i18n="Error">Request List</div>
                   </a>
                 </li>
@@ -130,7 +130,7 @@ include'../components/header.php';
             <!-- User interface -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bxs-building-house"></i>
+              <i class="menu-icon tf-icons bx bx-building-house"></i>
                 <div data-i18n="User interface">Districts</div>
               </a>
               <ul class="menu-sub">
@@ -160,7 +160,7 @@ include'../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-folder-plus"></i>
+                <i class="menu-icon tf-icons bx bx-folder-plus"></i>
                 <div data-i18n="Extended UI">Programs</div>
               </a>
               <ul class="menu-sub">
@@ -180,7 +180,7 @@ include'../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Suppllier_list.php" class="menu-link">
+                  <a href="Supplier_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Supplier</div>
                   </a>
                 </li>
@@ -190,12 +190,12 @@ include'../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bxs-package"></i>
+              <i class="menu-icon tf-icons bx bx-package"></i>
                 <div data-i18n="Extended UI">Items</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="Items_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Items</div>
                   </a>
                 </li>
@@ -210,7 +210,7 @@ include'../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="User_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of User</div>
                   </a>
                 </li>
@@ -224,11 +224,10 @@ include'../components/header.php';
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Profile</span></li>
             <!-- Forms -->
             <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <a href="Account.php" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-user-circle"></i>
                 <div data-i18n="Form Elements">Account</div>
               </a>
-             
             </li>
             
             
