@@ -26,7 +26,7 @@ include '../components/header.php';
         <ul class="menu-inner py-1">
           <!-- Dashboard -->
           <li class="menu-item active">
-            <a href="index.html" class="menu-link">
+            <a href="Dashboard.php" class="menu-link">
               <i class="menu-icon tf-icons bx bx-home-circle"></i>
               <div data-i18n="Analytics">Dashboard</div>
             </a>
@@ -142,51 +142,51 @@ include '../components/header.php';
             </ul>
           </li>
 
-          <!-- Extended components -->
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Barangays</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">Barangay List</div>
-                </a>
-              </li>
+            <!-- Extended components -->
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <div data-i18n="Extended UI">Barangays</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Barangay_list.php" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Barangay List</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
-            </ul>
-          </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <div data-i18n="Extended UI">Programs</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Programs.php" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Program List</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Programs</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">Program List</div>
-                </a>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Suppliers</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">List of Supplier</div>
-                </a>
-              </li>
-
-            </ul>
-          </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <div data-i18n="Extended UI">Suppliers</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Supplier_list.php" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">List of Supplier</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
