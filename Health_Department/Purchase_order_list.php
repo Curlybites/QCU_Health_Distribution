@@ -28,6 +28,7 @@
             <li class="menu-item ">
               <a href="Dashboard.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-dashboard"></i>
+                <i class="menu-icon tf-icons bx bxs-dashboard"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
@@ -37,12 +38,12 @@
             </li>
             <li class="menu-item active open">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-dock-top"></i>
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">Purchase Order</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item active">
-                  <a href="pages-account-settings-account.html" class="menu-link">
+                  <a href="Purchase_order_list.php" class="menu-link">
                     <div data-i18n="Account">Purchase Order List</div>
                   </a>
                 </li>
@@ -55,7 +56,7 @@
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-lock-open-alt"></i>
+                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
@@ -68,7 +69,7 @@
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
                 <div data-i18n="Misc">Back Order</div>
               </a>
               <ul class="menu-sub">
@@ -81,7 +82,7 @@
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
                 <div data-i18n="Misc">Stocks</div>
               </a>
               <ul class="menu-sub">
@@ -95,7 +96,7 @@
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
@@ -112,7 +113,7 @@
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
                 <div data-i18n="Misc">Request Order</div>
               </a>
               <ul class="menu-sub">
@@ -130,12 +131,12 @@
             <!-- User interface -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-box"></i>
+                <i class="menu-icon tf-icons bx bx-box"></i>
                 <div data-i18n="User interface">Districts</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="ui-accordion.html" class="menu-link">
+                  <a href="District_List.php" class="menu-link">
                     <div data-i18n="Accordion">District List</div>
                   </a>
                 </li>
@@ -145,7 +146,7 @@
             <!-- Extended components -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-copy"></i>
+                <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Barangays</div>
               </a>
               <ul class="menu-sub">
@@ -160,12 +161,12 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-copy"></i>
+                <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Programs</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Programs.php" class="menu-link">
+                  <a href="Programs_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">Program List</div>
                   </a>
                 </li>
@@ -175,7 +176,7 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-copy"></i>
+                <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Suppliers</div>
               </a>
               <ul class="menu-sub">
@@ -190,7 +191,7 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-copy"></i>
+                <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Items</div>
               </a>
               <ul class="menu-sub">
@@ -205,7 +206,7 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-copy"></i>
+                <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Users</div>
               </a>
               <ul class="menu-sub">
@@ -225,7 +226,7 @@
             <!-- Forms -->
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-detail"></i>
+                <i class="menu-icon tf-icons bx bx-detail"></i>
                 <div data-i18n="Form Elements">Account</div>
               </a>
              
