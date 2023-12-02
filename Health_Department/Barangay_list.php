@@ -27,7 +27,7 @@ include '../components/header.php';
             <!-- Dashboard -->
             <li class="menu-item ">
               <a href="Dashboard.php" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <i class="menu-icon tf-icons bx bxs-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
@@ -37,7 +37,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cart-alt"></i>
+                <i class="menu-icon tf-icons bx bxs-cart-alt"></i>
                 <div data-i18n="Account Settings">Purchase Order</div>
               </a>
               <ul class="menu-sub">
@@ -55,7 +55,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class='menu-icon tf-icons bx bx-exit bx-rotate-90' ></i>
+                <i class='menu-icon tf-icons bx bxs-exit bx-rotate-90' ></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
@@ -68,7 +68,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class='menu-icon tf-icons bx bx-food-menu' ></i>
+                <i class='menu-icon tf-icons bx bxs-food-menu' ></i>
                 <div data-i18n="Misc">Back Order</div>
               </a>
               <ul class="menu-sub">
@@ -81,7 +81,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+                <i class="menu-icon tf-icons bx bxs-box"></i>
                 <div data-i18n="Misc">Stocks</div>
               </a>
               <ul class="menu-sub">
@@ -95,7 +95,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-sitemap"></i>
+                <i class="menu-icon tf-icons bx bxs-sitemap"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
@@ -112,7 +112,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-notepad"></i>
+                <i class="menu-icon tf-icons bx bxs-notepad"></i>
                 <div data-i18n="Misc">Request Order</div>
               </a>
               <ul class="menu-sub">
@@ -130,7 +130,7 @@ include '../components/header.php';
             <!-- User interface -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+                <i class="menu-icon tf-icons bx bxs-box"></i>
                 <div data-i18n="User interface">Districts</div>
               </a>
               <ul class="menu-sub">
@@ -175,7 +175,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-user-pin"></i>
+                <i class="menu-icon tf-icons bx bxs-user-pin"></i>
                 <div data-i18n="Extended UI">Suppliers</div>
               </a>
               <ul class="menu-sub">
@@ -205,7 +205,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-user"></i>
+                <i class="menu-icon tf-icons bx bxs-user"></i>
                 <div data-i18n="Extended UI">Users</div>
               </a>
               <ul class="menu-sub">
@@ -225,7 +225,7 @@ include '../components/header.php';
             <!-- Forms -->
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-user-circle"></i>
+                <i class="menu-icon tf-icons bx bxs-user-circle"></i>
                 <div data-i18n="Form Elements">Account</div>
               </a>
              
