@@ -341,110 +341,140 @@ include '../components/header.php';
                                         <h5 class="card-header">List of Purchase Order</h5>
                                         <button class="btn-success mx-4 px-4 py-1 border-0"> <i class='bx bxs-add-to-queue'></i> Add Purchase Order</button>
                                     </div>
-
-                                    <hr class="my-0">
-                                    <!-- Account -->
-                                    <div class="card-body p-5 ">
-                                        <div class="table-responsive text-nowrap">
-                                            <table id="dataTable" class="datatables-basic table table-hover  border-top " style="width:100%">
-                                                <thead class="">
-                                                    <tr>
-                                                        <th>#</th>
-                                                        <th>Date Created</th>
-                                                        <th>District</th>
-                                                        <th>City</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>AWRS</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 2</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 3</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 4</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 4</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 5</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 6</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 1</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                    <tr>
-                                                        <th>#</th>
-                                                        <th>Date Created</th>
-                                                        <th>District</th>
-                                                        <th>City</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </tfoot>
-                                            </table>
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header border border-bottom">
+                                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Create Program</h1>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="row g-2">
+                                                        <div class="col-md-8 ">
+                                                            <label for="inputName" class="form-label">Program Name</label>
+                                                            <input type="email" class="form-control" id="inputEmail4">
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <label for="inputDate" class="form-label">Date</label>
+                                                            <input type="password" class="form-control" id="inputdate">
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <label for="inputState" class="form-label">Program Manager Name</label>
+                                                            <select id="inputState" class="form-select">
+                                                                <option selected>Choose...</option>
+                                                                <option>...</option>
+                                                            </select>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <hr class="my-0">
-                                    <div class="card-body">
-                                        <form id="formAccountSettings" method="POST" onsubmit="return false">
+                                        <hr class="my-0">
+                                        <!-- Account -->
+                                        <div class="card-body p-5 ">
+                                            <div class="table-responsive text-nowrap">
+                                                <table id="dataTable" class="datatables-basic table table-hover  border-top " style="width:100%">
+                                                    <thead class="">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Date Created</th>
+                                                            <th>District</th>
+                                                            <th>City</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>AWRS</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 2</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 3</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 4</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 4</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 5</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>7</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 6</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>8</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 1</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <tfoot>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Date Created</th>
+                                                            <th>District</th>
+                                                            <th>City</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <hr class="my-0">
+                                        <div class="card-body">
+                                            <form id="formAccountSettings" method="POST" onsubmit="return false">
 
-                                        </form>
+                                            </form>
+                                        </div>
+                                        <!-- /Account -->
                                     </div>
-                                    <!-- /Account -->
+
                                 </div>
-
                             </div>
                         </div>
+                        <!-- / Content -->
+
+                        <div class="content-backdrop fade"></div>
                     </div>
                     <!-- / Content -->
 
-                    <div class="content-backdrop fade"></div>
-                </div>
-                <!-- / Content -->
-
-                <!-- Footer
+                    <!-- Footer
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
@@ -475,17 +505,17 @@ include '../components/header.php';
                 </div>
               </div>
             </footer> -->
-                <!-- / Footer -->
+                    <!-- / Footer -->
 
-                <div class="content-backdrop fade"></div>
+                    <div class="content-backdrop fade"></div>
+                </div>
+                <!-- Content wrapper -->
             </div>
-            <!-- Content wrapper -->
+            <!-- / Layout page  #-->
         </div>
-        <!-- / Layout page  #-->
-    </div>
 
-    <!-- Overlay -->
-    <div class="layout-overlay layout-menu-toggle"></div>
+        <!-- Overlay -->
+        <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
     <!-- DATA TABLES -->
