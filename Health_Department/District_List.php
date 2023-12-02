@@ -17,7 +17,7 @@ include '../components/header.php';
                     </a>
 
                     <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-                        <i class="bx bx-chevron-left bx-sm align-middle"></i>
+                        <i class="menu-icon tf-icons bx bxs-dashboard"></i>
                     </a>
                 </div>
 
@@ -27,7 +27,7 @@ include '../components/header.php';
                     <!-- Dashboard -->
                     <li class="menu-item ">
                         <a href="Dashboard.php" class="menu-link">
-                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <i class="menu-icon tf-icons bx bxs-dashboard"></i>
                             <div data-i18n="Analytics">Dashboard</div>
                         </a>
                     </li>
@@ -37,7 +37,7 @@ include '../components/header.php';
                     </li>
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                            <i class="menu-icon tf-icons bx bx-cart-alt"></i>
                             <div data-i18n="Account Settings">Purchase Order</div>
                         </a>
                         <ul class="menu-sub">
@@ -55,7 +55,7 @@ include '../components/header.php';
                     </li>
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                            <i class="menu-icon tf-icons bx bx-exit"></i>
                             <div data-i18n="Authentications">Receive</div>
                         </a>
                         <ul class="menu-sub">
@@ -68,7 +68,7 @@ include '../components/header.php';
                     </li>
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                            <i class="menu-icon tf-icons bx bx-food-menu"></i>
                             <div data-i18n="Misc">Back Order</div>
                         </a>
                         <ul class="menu-sub">
@@ -81,7 +81,7 @@ include '../components/header.php';
                     </li>
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                            <i class="menu-icon tf-icons bx bx-box"></i>
                             <div data-i18n="Misc">Stocks</div>
                         </a>
                         <ul class="menu-sub">
@@ -112,7 +112,7 @@ include '../components/header.php';
 
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                            <i class="menu-icon tf-icons bx bx-notepad"></i>
                             <div data-i18n="Misc">Request Order</div>
                         </a>
                         <ul class="menu-sub">
@@ -130,12 +130,12 @@ include '../components/header.php';
                     <!-- User interface -->
                     <li class="menu-item active open">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-box"></i>
+                            <i class="menu-icon tf-icons bx bxs-building-house"></i>
                             <div data-i18n="User interface">Districts</div>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item active">
-                                <a href="ui-accordion.html" class="menu-link">
+                                <a href="District_List.php" class="menu-link">
                                     <div data-i18n="Accordion">District List</div>
                                 </a>
                             </li>
@@ -145,12 +145,11 @@ include '../components/header.php';
                     <!-- Extended components -->
                     <li class="menu-item">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-copy"></i>
+                            <i class="menu-icon tf-icons bx bxs-institution"></i>
                             <div data-i18n="Extended UI">Barangays</div>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="Barangay_list.php" class="menu-link">
                                 <a href="Barangay_list.php" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">Barangay List</div>
                                 </a>
@@ -161,12 +160,12 @@ include '../components/header.php';
 
                     <li class="menu-item">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-copy"></i>
+                            <i class="menu-icon tf-icons bx bx-folder-plus"></i>
                             <div data-i18n="Extended UI">Programs</div>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                                <a href="Programs.php" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">Program List</div>
                                 </a>
                             </li>
@@ -176,12 +175,12 @@ include '../components/header.php';
 
                     <li class="menu-item">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-copy"></i>
+                            <i class="menu-icon tf-icons bx bx-user-pin"></i>
                             <div data-i18n="Extended UI">Suppliers</div>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                                <a href="Supplier_list.php" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">List of Supplier</div>
                                 </a>
                             </li>
@@ -191,7 +190,7 @@ include '../components/header.php';
 
                     <li class="menu-item">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-copy"></i>
+                            <i class="menu-icon tf-icons bx bx-package"></i>
                             <div data-i18n="Extended UI">Items</div>
                         </a>
                         <ul class="menu-sub">
@@ -206,7 +205,7 @@ include '../components/header.php';
 
                     <li class="menu-item">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-copy"></i>
+                            <i class="menu-icon tf-icons bx bx-user"></i>
                             <div data-i18n="Extended UI">Users</div>
                         </a>
                         <ul class="menu-sub">
@@ -226,7 +225,7 @@ include '../components/header.php';
                     <!-- Forms -->
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-detail"></i>
+                            <i class="menu-icon tf-icons bx bx-user-circle"></i>
                             <div data-i18n="Form Elements">Account</div>
                         </a>
 
@@ -333,14 +332,46 @@ include '../components/header.php';
                     <!-- Content -->
 
                     <div class="container-fluid  flex-grow-1 container-p-y">
-                        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Purchase Order /</span> Purchase Order List</h4>
+                        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Districts /</span> District List</h4>
 
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card mb-4">
                                     <div class="title d-flex align-items-center justify-content-between border-top border-success">
-                                        <h5 class="card-header">List of Purchase Order</h5>
-                                        <button class="btn-success mx-4 px-4 py-1 border-0"> <i class='bx bxs-add-to-queue'></i> Add Purchase Order</button>
+                                        <h5 class="card-header">District List</h5>
+                                        <button class="btn-success mx-4 px-4 py-1 border-0" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class='bx bxs-add-to-queue'></i>Create New</button>
+                                    </div>
+
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content border border-success border-2">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Create Program</h1>
+                                                </div>
+                                                <hr class="mb-0">
+                                                <div class="modal-body">
+                                                    <form class="row">
+                                                        <div class="mb-3">
+                                                            <label for="districtNumber" class="form-label">District Number</label>
+                                                            <input type="number" class="form-control" id="districtNumber">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="city" class="form-label">City</label>
+                                                            <input type="text" class="form-control" id="city">
+                                                        </div>
+                                                        <div class="date">
+                                                            <label for="exampleFormControlInput1" class="form-label">Date</label>
+                                                            <input type="date" class="form-control" id="date">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <hr>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <hr class="my-0">
@@ -349,7 +380,7 @@ include '../components/header.php';
                                         <div class="table-responsive text-nowrap">
                                             <table id="dataTable" class="datatables-basic table table-hover  border-top " style="width:100%">
                                                 <thead class="">
-                                                    <tr>
+                                                    <tr class="">
                                                         <th>#</th>
                                                         <th>Date Created</th>
                                                         <th>District</th>
@@ -361,69 +392,56 @@ include '../components/header.php';
                                                     <tr>
                                                         <td>1</td>
                                                         <td>12/1/2023</td>
-                                                        <td>AWRS</td>
+                                                        <td>District 1</td>
                                                         <td>Quezon City</td>
-                                                        <td></td>
+                                                        <td class="text-center">
+                                                            <div class="dropdown">
+                                                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    Action
+                                                                </button>
+                                                                <ul class="dropdown-menu" style="min-width: 8rem">
+                                                                    <li><a class=" dropdown-item m-0" href="#">View</a></li>
+                                                                    <li><a class="dropdown-item m-0" href="#">Edit</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
                                                         <td>12/1/2023</td>
                                                         <td>District 2</td>
                                                         <td>Quezon City</td>
-                                                        <td></td>
+                                                        <td class="text-center">
+                                                            <div class="dropdown">
+                                                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    Action
+                                                                </button>
+                                                                <ul class="dropdown-menu" style="min-width: 8rem">
+                                                                    <li><a class=" dropdown-item m-0" href="#">View</a></li>
+                                                                    <li><a class="dropdown-item m-0" href="#">Edit</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
                                                         <td>12/1/2023</td>
                                                         <td>District 3</td>
                                                         <td>Quezon City</td>
-                                                        <td></td>
+                                                        <td class="text-center">
+                                                            <div class="dropdown">
+                                                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    Action
+                                                                </button>
+                                                                <ul class="dropdown-menu" style="min-width: 8rem">
+                                                                    <li><a class=" dropdown-item m-0" href="#">View</a></li>
+                                                                    <li><a class="dropdown-item m-0" href="#">Edit</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 4</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 4</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 5</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 6</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>12/1/2023</td>
-                                                        <td>District 1</td>
-                                                        <td>Quezon City</td>
-                                                        <td></td>
-                                                    </tr>
+
                                                 </tbody>
-                                                <tfoot>
-                                                    <tr>
-                                                        <th>#</th>
-                                                        <th>Date Created</th>
-                                                        <th>District</th>
-                                                        <th>City</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </tfoot>
                                             </table>
                                         </div>
                                     </div>
@@ -497,30 +515,30 @@ include '../components/header.php';
     <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script src="../js/dataTables.js"></script>
 
-        <!-- DATA TABLES END -->
+    <!-- DATA TABLES END -->
 
 
-        <!-- Core JS -->
-        <!-- build:js assets/vendor/js/core.js -->
-        <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-        <script src="../assets/vendor/libs/popper/popper.js"></script>
-        <script src="../assets/vendor/js/bootstrap.js"></script>
-        <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-        <script src="../assets/vendor/js/menu.js"></script>
-        <!-- endbuild -->
+    <script src="../assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
 
-        <!-- Vendors JS -->
-        <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <!-- Vendors JS -->
+    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
 
-        <!-- Main JS -->
-        <script src="../assets/js/main.js"></script>
+    <!-- Main JS -->
+    <script src="../assets/js/main.js"></script>
 
-        <!-- Page JS -->
-        <script src="../assets/js/dashboards-analytics.js"></script>
+    <!-- Page JS -->
+    <script src="../assets/js/dashboards-analytics.js"></script>
 
-        <!-- Place this tag in your head or just before your close body tag. -->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>
