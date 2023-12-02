@@ -150,7 +150,8 @@ include '../components/header.php';
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                                <a href="Barangay_list.php" class="menu-link">
+                                <a href="Barangay_list.php" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">Barangay List</div>
                                 </a>
                             </li>
@@ -496,30 +497,30 @@ include '../components/header.php';
     <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script src="../js/dataTables.js"></script>
 
-    <!-- DATA TABLES END -->
+        <!-- DATA TABLES END -->
 
 
-    <!-- Core JS -->
-    <!-- build:js assets/vendor/js/core.js -->
-    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="../assets/vendor/libs/popper/popper.js"></script>
-    <script src="../assets/vendor/js/bootstrap.js"></script>
-    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+        <!-- Core JS -->
+        <!-- build:js assets/vendor/js/core.js -->
+        <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+        <script src="../assets/vendor/libs/popper/popper.js"></script>
+        <script src="../assets/vendor/js/bootstrap.js"></script>
+        <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-    <script src="../assets/vendor/js/menu.js"></script>
-    <!-- endbuild -->
+        <script src="../assets/vendor/js/menu.js"></script>
+        <!-- endbuild -->
 
-    <!-- Vendors JS -->
-    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+        <!-- Vendors JS -->
+        <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
 
-    <!-- Main JS -->
-    <script src="../assets/js/main.js"></script>
+        <!-- Main JS -->
+        <script src="../assets/js/main.js"></script>
 
-    <!-- Page JS -->
-    <script src="../assets/js/dashboards-analytics.js"></script>
+        <!-- Page JS -->
+        <script src="../assets/js/dashboards-analytics.js"></script>
 
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>
