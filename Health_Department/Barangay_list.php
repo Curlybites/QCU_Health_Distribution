@@ -135,7 +135,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="ui-accordion.html" class="menu-link">
+                  <a href="Purchase_order_list.php" class="menu-link">
                     <div data-i18n="Accordion">District List</div>
                   </a>
                 </li>
@@ -180,7 +180,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="#" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Supplier</div>
                   </a>
                 </li>
@@ -363,13 +363,39 @@ include '../components/header.php';
                         <div class="modal-dialog modal-dialog-centered" >
                             <div class="modal-content border border-success border-2">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Barangay</h1>
                             </div>
                             <div class="modal-body">
-                                
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            
+                            <div class="add_barangay_content">
+                                <span>Select District</span>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
                             </div>
+                            
+                            <div class="add_barangay_content">
+                                <span>Barangay Name</span>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </div>
+
+                            <div class="add_barangay_content">
+                                <span>City</span>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </div>
+
+                            <div class="add_barangay_content">
+                                <span>Date</span>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </div>
+
+
 
 
                             </div>

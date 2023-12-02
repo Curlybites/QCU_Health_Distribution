@@ -142,21 +142,21 @@ include '../components/header.php';
             </ul>
           </li>
 
-          <!-- Extended components -->
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Barangays</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">Barangay List</div>
-                </a>
-              </li>
-
-            </ul>
-          </li>
+            <!-- Extended components -->
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <div data-i18n="Extended UI">Barangays</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Barangay_list.php" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Barangay List</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
