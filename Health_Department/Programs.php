@@ -42,7 +42,7 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item ">
-                  <a href="pages-account-settings-account.html" class="menu-link">
+                  <a href="Purchase_order_list.php" class="menu-link">
                     <div data-i18n="Account">Purchase Order List</div>
                   </a>
                 </li>
