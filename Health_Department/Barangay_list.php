@@ -27,7 +27,7 @@ include '../components/header.php';
             <!-- Dashboard -->
             <li class="menu-item ">
               <a href="Dashboard.php" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <i class="menu-icon tf-icons bx bxs-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
@@ -37,7 +37,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <i class="menu-icon tf-icons bx bxs-cart-alt"></i>
                 <div data-i18n="Account Settings">Purchase Order</div>
               </a>
               <ul class="menu-sub">
@@ -55,7 +55,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                <i class='menu-icon tf-icons bx bxs-exit bx-rotate-90' ></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
@@ -68,7 +68,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <i class='menu-icon tf-icons bx bxs-food-menu' ></i>
                 <div data-i18n="Misc">Back Order</div>
               </a>
               <ul class="menu-sub">
@@ -81,7 +81,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bxs-box"></i>
                 <div data-i18n="Misc">Stocks</div>
               </a>
               <ul class="menu-sub">
@@ -95,7 +95,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bxs-sitemap"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
@@ -112,7 +112,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bxs-notepad"></i>
                 <div data-i18n="Misc">Request Order</div>
               </a>
               <ul class="menu-sub">
@@ -130,7 +130,7 @@ include '../components/header.php';
             <!-- User interface -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+                <i class="menu-icon tf-icons bx bxs-box"></i>
                 <div data-i18n="User interface">Districts</div>
               </a>
               <ul class="menu-sub">
@@ -145,7 +145,7 @@ include '../components/header.php';
             <!-- Extended components -->
             <li class="menu-item active open">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <i class="menu-icon tf-icons bx bxs-institution"></i>
                 <div data-i18n="Extended UI">Barangays</div>
               </a>
               <ul class="menu-sub ">
@@ -160,7 +160,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <i class="menu-icon tf-icons bx bxs-folder-plus"></i>
                 <div data-i18n="Extended UI">Programs</div>
               </a>
               <ul class="menu-sub">
@@ -175,7 +175,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <i class="menu-icon tf-icons bx bxs-user-pin"></i>
                 <div data-i18n="Extended UI">Suppliers</div>
               </a>
               <ul class="menu-sub">
@@ -190,7 +190,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <i class="menu-icon tf-icons bx bxs-package"></i>
                 <div data-i18n="Extended UI">Items</div>
               </a>
               <ul class="menu-sub">
@@ -205,7 +205,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+                <i class="menu-icon tf-icons bx bxs-user"></i>
                 <div data-i18n="Extended UI">Users</div>
               </a>
               <ul class="menu-sub">
@@ -225,7 +225,7 @@ include '../components/header.php';
             <!-- Forms -->
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-detail"></i>
+                <i class="menu-icon tf-icons bx bxs-user-circle"></i>
                 <div data-i18n="Form Elements">Account</div>
               </a>
              
@@ -429,113 +429,12 @@ include '../components/header.php';
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
@@ -549,342 +448,248 @@ include '../components/header.php';
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>Donna Snider</td>
                                     <td>Customer Support</td>
                                     <td>New York</td>
                                     <td>27</td>
                                     <td>2011-01-25</td>
-                                    <td><div class="dropdown">
+                                    <td class="text-center">
+                                        <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Action
                                         </button>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="min-width: 8rem;">
                                             <li><a class="dropdown-item" href="#">View</a></li>
                                             <li><a class="dropdown-item" href="#">Edit</a></li>
                                         </ul>
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011-01-25</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">View</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                        </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <tfoot>
+
+                            <!-- <tfoot>
                                 <tr>
                                     <th>#</th>
                                     <th>Date Created</th>
@@ -893,7 +698,7 @@ include '../components/header.php';
                                     <th>Adress</th>
                                     <th>Action</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> -->
                         </table>
                         </div>
                         </div>
