@@ -32,115 +32,115 @@ include '../components/header.php';
             </a>
           </li>
 
-          <li class="menu-header small text-uppercase">
-            <span class="menu-header-text">Pages</span>
-          </li>
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-dock-top"></i>
-              <div data-i18n="Account Settings">Purchase Order</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="./Purchase_order_list.php" class="menu-link">
-                  <div data-i18n="Account">Purchase Order List</div>
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="pages-account-settings-notifications.html" class="menu-link">
-                  <div data-i18n="Notifications">Add Purchase Order</div>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
-              <div data-i18n="Authentications">Receive</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="auth-login-basic.html" class="menu-link" target="_blank">
-                  <div data-i18n="Basic">Receive Order List</div>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
-              <div data-i18n="Misc">Back Order</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="pages-misc-error.html" class="menu-link">
-                  <div data-i18n="Error">Back Order List</div>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
-              <div data-i18n="Misc">Stocks</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="pages-misc-error.html" class="menu-link">
-                  <div data-i18n="Error">List of Stocks</div>
-                </a>
-              </li>
-            </ul>
-          </li>
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">Pages</span>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-cart-alt"></i>
+                <div data-i18n="Account Settings">Purchase Order</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Purchase_order_list.php" class="menu-link">
+                    <div data-i18n="Account">Purchase Order List</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="pages-account-settings-notifications.html" class="menu-link">
+                    <div data-i18n="Notifications">Add Purchase Order</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-exit"></i>
+                <div data-i18n="Authentications">Receive</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Receive_order_list.php" class="menu-link" target="_blank">
+                    <div data-i18n="Basic">Receive Order List</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-food-menu"></i>
+                <div data-i18n="Misc">Back Order</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Back_order_list.php" class="menu-link">
+                    <div data-i18n="Error">Back Order List</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-box"></i>
+                <div data-i18n="Misc">Stocks</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Stocks_list.php" class="menu-link">
+                    <div data-i18n="Error">List of Stocks</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <i class="menu-icon tf-icons bx bx-sitemap"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
+                  <a href="Distribution_list.php" class="menu-link">
                     <div data-i18n="Error">Distribution List</div>
                   </a>
-                   <a href="pages-misc-error.html" class="menu-link">
+                   <a href="Add_distribution_list.php" class="menu-link">
                     <div data-i18n="Error">Add Distribution</div>
                   </a>
                 </li>
               </ul>
             </li>
 
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
-              <div data-i18n="Misc">Request Order</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="pages-misc-error.html" class="menu-link">
-                  <div data-i18n="Error">Request List</div>
-                </a>
-              </li>
-            </ul>
-          </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-notepad"></i>
+                <div data-i18n="Misc">Request Order</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="pages-misc-error.html" class="menu-link">
+                    <div data-i18n="Error">Request List</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-          <!-- Components -->
-          <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
-
-          <!-- User interface -->
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-box"></i>
-              <div data-i18n="User interface">Districts</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="District_List.php" class="menu-link">
-                  <div data-i18n="Accordion">District List</div>
-                </a>
-              </li>
-            </ul>
-          </li>
+            <!-- Components -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
+            
+            <!-- User interface -->
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bxs-building-house"></i>
+                <div data-i18n="User interface">Districts</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="District_List.php" class="menu-link">
+                    <div data-i18n="Accordion">District List</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
           <!-- Extended components -->
           <li class="menu-item">
@@ -158,82 +158,82 @@ include '../components/header.php';
             </ul>
           </li>
 
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Programs</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">Program List</div>
-                </a>
-              </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bxs-folder-plus"></i>
+                <div data-i18n="Extended UI">Programs</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Programs_list.php" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Program List</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
-            </ul>
-          </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-user-pin"></i>
+                <div data-i18n="Extended UI">Suppliers</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="Suppllier_list.php" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">List of Supplier</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Suppliers</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">List of Supplier</div>
-                </a>
-              </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bxs-package"></i>
+                <div data-i18n="Extended UI">Items</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">List of Items</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
-            </ul>
-          </li>
-
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Items</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">List of Items</div>
-                </a>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
-              <div data-i18n="Extended UI">Users</div>
-            </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                  <div data-i18n="Perfect Scrollbar">List of User</div>
-                </a>
-              </li>
-
-            </ul>
-          </li>
-
-
-
-          <!-- Forms & Tables -->
-          <li class="menu-header small text-uppercase"><span class="menu-header-text">Profile</span></li>
-          <!-- Forms -->
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-detail"></i>
-              <div data-i18n="Form Elements">Account</div>
-            </a>
-
-          </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-user"></i>
+                <div data-i18n="Extended UI">Users</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">List of User</div>
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
 
 
-      </aside>
-      <!-- / Menu -->
+
+            <!-- Forms & Tables -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Profile</span></li>
+            <!-- Forms -->
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-user-circle"></i>
+                <div data-i18n="Form Elements">Account</div>
+              </a>
+             
+            </li>
+            
+            
+        </aside>
+        <!-- / Menu -->
 
       <!-- Layout container -->
       <div class="layout-page">
