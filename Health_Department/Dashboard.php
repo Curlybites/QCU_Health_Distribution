@@ -27,7 +27,7 @@ include'../components/header.php';
             <!-- Dashboard -->
             <li class="menu-item active">
               <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <i class="menu-icon tf-icons bx bxs-dashboard"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
