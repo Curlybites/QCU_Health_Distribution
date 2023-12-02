@@ -481,7 +481,7 @@ include '../components/header.php';
             </div>
             <!-- Content wrapper -->
         </div>
-        <!-- / Layout page -->
+        <!-- / Layout page  #-->
     </div>
 
     <!-- Overlay -->
