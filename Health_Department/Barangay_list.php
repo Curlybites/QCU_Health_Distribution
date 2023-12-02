@@ -135,7 +135,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="ui-accordion.html" class="menu-link">
+                  <a href="Purchase_order_list.php" class="menu-link">
                     <div data-i18n="Accordion">District List</div>
                   </a>
                 </li>
@@ -180,7 +180,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="#" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Supplier</div>
                   </a>
                 </li>
