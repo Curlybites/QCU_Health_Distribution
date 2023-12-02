@@ -177,7 +177,7 @@ include '../components/header.php';
 
             <li class="menu-item active open">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-user-pin"></i>
+              <i class="menu-icon tf-icons bx bxs-user-pin"></i>
                 <div data-i18n="Extended UI">Suppliers</div>
               </a>
               <ul class="menu-sub">
