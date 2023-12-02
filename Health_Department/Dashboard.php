@@ -95,7 +95,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-sitemap"></i>
+              <i class="menu-icon tf-icons bx bxs-truck"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
@@ -145,7 +145,7 @@ include '../components/header.php';
           <!-- Extended components -->
           <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-copy"></i>
+            <i class="menu-icon tf-icons bx bxs-institution"></i>
               <div data-i18n="Extended UI">Barangays</div>
             </a>
             <ul class="menu-sub">
