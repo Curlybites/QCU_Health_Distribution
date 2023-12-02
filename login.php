@@ -1,3 +1,11 @@
+<?php 
+session_start();
+
+if(isset($_SESSION{"user_id"})) {
+  header("Location: dashboard.php");
+}
+?>
+
 <!DOCTYPE html>
 
 <html
@@ -75,8 +83,29 @@
               <!-- /Logo -->
               <h4 class="mb-2">Welcome to Quezon City! 👋</h4>
               <p class="mb-4">Please sign-in to your account and start the adventure</p>
-
-              <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+              <?php 
+              if(isset($_POST['login'])){
+                $email = $_POST["email"];
+                $password = $_POST["password"];
+                  require_once "connection.php";
+                  $sql = "SELECT * FROM users WHERE email = '$email'";
+                  $result = mysqli_query($conn, $sql);
+                  $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
+                  if ($user) {
+                    if(password_verify($password, $user['password'])) {
+                      session_start();
+                      $_SESSION["user"] = "yes";
+                      header("Location: Dashboard.php");
+                      die();
+                    }else{
+                      echo "<div class='alert alert-danger'>Password does not match</div>";
+                    }
+                  }else{
+                    echo "<div class='alert alert-danger'>Email does not match</div>";
+                }
+              }
+              ?>
+              <form id="formAuthentication" class="mb-3" action="login.php" method="POST">
 
               <div class="mb-3">
                       <label class="form-label" for="selectTypeOpt">Type</label>
@@ -95,7 +124,7 @@
                     type="text"
                     class="form-control"
                     id="email"
-                    name="email-username"
+                    name="email"
                     placeholder="Enter your email or username"
                     autofocus
                   />
