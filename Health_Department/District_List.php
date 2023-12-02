@@ -150,7 +150,7 @@ include '../components/header.php';
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                                <a href="Barangay_list.php" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">Barangay List</div>
                                 </a>
                             </li>
@@ -341,6 +341,10 @@ include '../components/header.php';
                                         <h5 class="card-header">List of Purchase Order</h5>
                                         <button class="btn-success mx-4 px-4 py-1 border-0"> <i class='bx bxs-add-to-queue'></i> Add Purchase Order</button>
                                     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of d841730 (Revert "Table")
                                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
@@ -372,6 +376,7 @@ include '../components/header.php';
                                                 </div>
                                             </div>
                                         </div>
+<<<<<<< HEAD
                                         <hr class="my-0">
                                         <!-- Account -->
                                         <div class="card-body p-5 ">
@@ -460,6 +465,97 @@ include '../components/header.php';
                                         <div class="card-body">
                                             <form id="formAccountSettings" method="POST" onsubmit="return false">
 
+=======
+
+                                        <hr class="my-0">
+                                        <!-- Account -->
+                                        <div class="card-body p-5 ">
+                                            <div class="table-responsive text-nowrap">
+                                                <table id="dataTable" class="datatables-basic table table-hover  border-top " style="width:100%">
+                                                    <thead class="">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Date Created</th>
+                                                            <th>District</th>
+                                                            <th>City</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>AWRS</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 2</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 3</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 4</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 4</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 5</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>7</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 6</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>8</td>
+                                                            <td>12/1/2023</td>
+                                                            <td>District 1</td>
+                                                            <td>Quezon City</td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <tfoot>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Date Created</th>
+                                                            <th>District</th>
+                                                            <th>City</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <hr class="my-0">
+                                        <div class="card-body">
+                                            <form id="formAccountSettings" method="POST" onsubmit="return false">
+
+>>>>>>> parent of d841730 (Revert "Table")
                                             </form>
                                         </div>
                                         <!-- /Account -->
