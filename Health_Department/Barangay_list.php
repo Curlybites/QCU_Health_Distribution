@@ -884,7 +884,7 @@ include '../components/header.php';
                                     </td>
                                 </tr>
                             </tbody>
-                            <tfoot>
+                            <!-- <tfoot>
                                 <tr>
                                     <th>#</th>
                                     <th>Date Created</th>
@@ -893,7 +893,7 @@ include '../components/header.php';
                                     <th>Adress</th>
                                     <th>Action</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> -->
                         </table>
                         </div>
                         </div>
