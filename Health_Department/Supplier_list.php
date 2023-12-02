@@ -29,7 +29,7 @@ include '../components/header.php';
             <!-- Dashboard -->
             <li class="menu-item ">
               <a href="Dashboard.php" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <i class="menu-icon tf-icons bx bxs-dashboard"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
@@ -39,12 +39,12 @@ include '../components/header.php';
             </li>
             <li class="menu-item ">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+              <i class="menu-icon tf-icons bx bx-cart-alt"></i>
                 <div data-i18n="Account Settings">Purchase Order</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-account-settings-account.html" class="menu-link">
+                  <a href="Purchase_order_list.php" class="menu-link">
                     <div data-i18n="Account">Purchase Order List</div>
                   </a>
                 </li>
@@ -57,7 +57,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+              <i class="menu-icon bx bx-exit bx-rotate-90"></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
@@ -70,7 +70,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon bx bx-food-menu"></i>
                 <div data-i18n="Misc">Back Order</div>
               </a>
               <ul class="menu-sub">
@@ -83,7 +83,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon bx bx-box"></i>
                 <div data-i18n="Misc">Stocks</div>
               </a>
               <ul class="menu-sub">
@@ -97,7 +97,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon bx bx-sitemap"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
@@ -114,7 +114,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon bx bx-notepad"></i>
                 <div data-i18n="Misc">Request Order</div>
               </a>
               <ul class="menu-sub">
@@ -132,12 +132,12 @@ include '../components/header.php';
             <!-- User interface -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+              <i class='bx bxs-user' ></i>
                 <div data-i18n="User interface">Districts</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="ui-accordion.html" class="menu-link">
+                  <a href="District_list.php" class="menu-link">
                     <div data-i18n="Accordion">District List</div>
                   </a>
                 </li>
@@ -147,12 +147,12 @@ include '../components/header.php';
             <!-- Extended components -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bxs-institution"></i>
                 <div data-i18n="Extended UI">Barangays</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="Barangay_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">Barangay List</div>
                   </a>
                 </li>
@@ -162,12 +162,12 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bx-folder-plus"></i>
                 <div data-i18n="Extended UI">Programs</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="Programs_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">Program List</div>
                   </a>
                 </li>
@@ -177,12 +177,12 @@ include '../components/header.php';
 
             <li class="menu-item active open">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bx-user-pin"></i>
                 <div data-i18n="Extended UI">Suppliers</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item active">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="Supplier_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Supplier</div>
                   </a>
                 </li>
@@ -190,9 +190,12 @@ include '../components/header.php';
               </ul>
             </li>
 
+           
+
+
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class="menu-icon tf-icons bx bxs-package"></i>
                 <div data-i18n="Extended UI">Items</div>
               </a>
               <ul class="menu-sub">
@@ -207,7 +210,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
+              <i class='bx bxs-user' ></i>
                 <div data-i18n="Extended UI">Users</div>
               </a>
               <ul class="menu-sub">
@@ -227,7 +230,7 @@ include '../components/header.php';
             <!-- Forms -->
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-detail"></i>
+              <i class="menu-icon bx bx-user-circle"></i>
                 <div data-i18n="Form Elements">Account</div>
               </a>
 
@@ -406,13 +409,13 @@ include '../components/header.php';
                               <td>Mark sale</td>
                               <td>09323657341</td>
                               <td>Active</td>
-                              <td>
+                                <td class="text-center">
                                 <div class="dropdown">
                                   <button class="btn btn-secondary dropdown-toggle" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Action
                                   </button>
-                                  <ul class="dropdown-menu">
+                                  <ul class="dropdown-menu" style="min-width: 8rem">
                                     <li><a class="dropdown-item" href="#">View</a></li>
                                     <li><a class="dropdown-item" href="#">Edit</a></li>
                                   </ul>
@@ -425,13 +428,13 @@ include '../components/header.php';
                               <td>bark Lasy</td>
                               <td>09323373345</td>
                               <td>Active</td>
-                              <td>
+                             <td class="text-center">
                                 <div class="dropdown">
                                   <button class="btn btn-secondary dropdown-toggle" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Action
                                   </button>
-                                  <ul class="dropdown-menu">
+                                  <ul class="dropdown-menu" style="min-width: 8rem">
                                     <li><a class="dropdown-item" href="#">View</a></li>
                                     <li><a class="dropdown-item" href="#">Edit</a></li>
                                   </ul>
