@@ -37,7 +37,7 @@
             </li>
             <li class="menu-item active open">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bxs-cart-alt"></i>
+              <i class="menu-icon tf-icons bx bx-cart-alt"></i>
                 <div data-i18n="Account Settings">Purchase Order</div>
               </a>
               <ul class="menu-sub">
@@ -55,12 +55,12 @@
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-exit"></i>
+              <i class="menu-icon tf-icons bx bx-exit bx-rotate-90"></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Receive_order_list.php" class="menu-link" target="_blank">
+                  <a href="auth-login-basic.html" class="menu-link" target="_blank">
                     <div data-i18n="Basic">Receive Order List</div>
                   </a>
                 </li>
@@ -73,7 +73,7 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Back_order_list.php" class="menu-link">
+                  <a href="pages-misc-error.html" class="menu-link">
                     <div data-i18n="Error">Back Order List</div>
                   </a>
                 </li>
@@ -86,7 +86,7 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Stocks_list.php" class="menu-link">
+                  <a href="pages-misc-error.html" class="menu-link">
                     <div data-i18n="Error">List of Stocks</div>
                   </a>
                 </li>
@@ -100,10 +100,10 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Distribution_list.php" class="menu-link">
+                  <a href="pages-misc-error.html" class="menu-link">
                     <div data-i18n="Error">Distribution List</div>
                   </a>
-                   <a href="Add_distribution.php" class="menu-link">
+                   <a href="pages-misc-error.html" class="menu-link">
                     <div data-i18n="Error">Add Distribution</div>
                   </a>
                 </li>
@@ -112,12 +112,12 @@
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-notepad"></i>
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
                 <div data-i18n="Misc">Request Order</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Request_list.php" class="menu-link">
+                  <a href="pages-misc-error.html" class="menu-link">
                     <div data-i18n="Error">Request List</div>
                   </a>
                 </li>
@@ -130,7 +130,7 @@
             <!-- User interface -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-building-house"></i>
+                <i class="menu-icon tf-icons bx bxs-building-house"></i>
                 <div data-i18n="User interface">Districts</div>
               </a>
               <ul class="menu-sub">
@@ -160,7 +160,7 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons bx bx-folder-plus"></i>
+              <i class="menu-icon tf-icons bx bxs-folder-plus"></i>
                 <div data-i18n="Extended UI">Programs</div>
               </a>
               <ul class="menu-sub">
@@ -190,12 +190,12 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-package"></i>
+                <i class="menu-icon tf-icons bx bxs-package"></i>
                 <div data-i18n="Extended UI">Items</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Items_list.php" class="menu-link">
+                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Items</div>
                   </a>
                 </li>
@@ -205,12 +205,12 @@
 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-user"></i>
+                <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Users</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="User_list.php" class="menu-link">
+                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of User</div>
                   </a>
                 </li>
@@ -224,8 +224,8 @@
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Profile</span></li>
             <!-- Forms -->
             <li class="menu-item">
-              <a href="Account.php" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-user-circle"></i>
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-detail"></i>
                 <div data-i18n="Form Elements">Account</div>
               </a>
              
@@ -856,87 +856,5 @@
                 </div>
               </div>
             </div>
-            <!-- / Content -->
-
-            <div class="content-backdrop fade"></div>
-          </div>
-            <!-- / Content -->
-
-            <!-- Footer
-            <footer class="content-footer footer bg-footer-theme">
-              <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-                <div class="mb-2 mb-md-0">
-                  ©
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  , made with ❤️ by
-                  <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                </div>
-                <div>
-                  <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                  <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                  <a
-                    href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
-                    target="_blank"
-                    class="footer-link me-4"
-                    >Documentation</a
-                  >
-
-                  <a
-                    href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
-                    target="_blank"
-                    class="footer-link me-4"
-                    >Support</a
-                  >
-                </div>
-              </div>
-            </footer> -->
-            <!-- / Footer -->
-
-            <div class="content-backdrop fade"></div>
-          </div>
-          <!-- Content wrapper -->
-        </div>
-        <!-- / Layout page -->
-      </div>
-
-      <!-- Overlay -->
-      <div class="layout-overlay layout-menu-toggle"></div>
-    </div>
-    <!-- / Layout wrapper -->
-<!-- DATA TABLES -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
-    <script src="../js/dataTables.js"></script>
-
-<!-- DATA TABLES END -->
-
-
-    <!-- Core JS -->
-    <!-- build:js assets/vendor/js/core.js -->
-    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="../assets/vendor/libs/popper/popper.js"></script>
-    <script src="../assets/vendor/js/bootstrap.js"></script>
-    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-
-    <script src="../assets/vendor/js/menu.js"></script>
-    <!-- endbuild -->
-
-    <!-- Vendors JS -->
-    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
-
-    <!-- Main JS -->
-    <script src="../assets/js/main.js"></script>
-
-    <!-- Page JS -->
-    <script src="../assets/js/dashboards-analytics.js"></script>
-
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </body>
-</html>
+            <!--footer-->
+            <?php include'../components/footer.php'?>
