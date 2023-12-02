@@ -27,7 +27,7 @@ include '../components/header.php';
             <!-- Dashboard -->
             <li class="menu-item ">
               <a href="Dashboard.php" class="menu-link">
-                <i class="menu-icon tf-icons bx bxs-home-circle"></i>
+                <i class="menu-icon tf-icons bx bxs-dashboard"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
@@ -55,7 +55,7 @@ include '../components/header.php';
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class='menu-icon tf-icons bx bxs-exit bx-rotate-90' ></i>
+                <i class='menu-icon tf-icons bx bxs-exit' ></i>
                 <div data-i18n="Authentications">Receive</div>
               </a>
               <ul class="menu-sub">
@@ -95,7 +95,7 @@ include '../components/header.php';
 
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-sitemap"></i>
+                <i class="menu-icon tf-icons bx bx-sitemap"></i>
                 <div data-i18n="Misc">Distribution</div>
               </a>
               <ul class="menu-sub">
@@ -135,7 +135,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Purchase_order_list.php" class="menu-link">
+                  <a href="District_List.php" class="menu-link">
                     <div data-i18n="Accordion">District List</div>
                   </a>
                 </li>
@@ -165,7 +165,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="Programs_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">Program List</div>
                   </a>
                 </li>
@@ -180,7 +180,7 @@ include '../components/header.php';
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="#" class="menu-link">
+                  <a href="Supplier_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Supplier</div>
                   </a>
                 </li>
