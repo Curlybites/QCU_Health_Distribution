@@ -195,7 +195,7 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Items_list.php" class="menu-link">
+                  <a href="Item_list.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">List of Items</div>
                   </a>
                 </li>
