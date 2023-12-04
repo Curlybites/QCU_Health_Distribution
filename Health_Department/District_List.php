@@ -195,7 +195,7 @@ include '../components/header.php';
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item ">
-                                <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                                <a href="Item_list.php" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">List of Items</div>
                                 </a>
                             </li>
