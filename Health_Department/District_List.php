@@ -128,7 +128,7 @@ include '../components/header.php';
                     <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
 
                     <!-- User interface -->
-                    <li class="menu-item active open">
+                    <li class="menu-item ">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bxs-building-house"></i>
                             <div data-i18n="User interface">Districts</div>
@@ -188,13 +188,13 @@ include '../components/header.php';
                         </ul>
                     </li>
 
-                    <li class="menu-item">
+                    <li class="menu-item active open">
                         <a href="javascript:void(0)" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-package"></i>
                             <div data-i18n="Extended UI">Items</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item">
+                            <li class="menu-item active">
                                 <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
                                     <div data-i18n="Perfect Scrollbar">List of Items</div>
                                 </a>
