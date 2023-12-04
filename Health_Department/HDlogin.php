@@ -76,13 +76,13 @@ if(isset($_SESSION{"user_id"})) {
                    
                   </span>
                   <span class="app-brand-text demo text-body fw-bolder">
-                    <img src="./assets/img/qc.png" alt="" width="100" class="d-flex align-items-center">
+                    <img src="../assets/img/qc.png" alt="" width="100" class="d-flex align-items-center">
                   </span>
                 </a>
               </div>
               <!-- /Logo -->
-              <h4 class="mb-2">Welcome to Quezon City! 👋</h4>
-              <p class="mb-4">Please sign-in to your account and start the adventure</p>
+              <h5 class="mb-2 text-center">Welcome to Health Department!👋</h5>
+              <p class="mb-4 text-center">Please sign-in to your account and start the adventure</p>
               <?php 
               if(isset($_POST['login'])){
                 $email = $_POST["email"];
