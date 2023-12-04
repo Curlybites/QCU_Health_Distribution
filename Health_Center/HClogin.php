@@ -109,7 +109,7 @@ if(isset($_SESSION{"user_id"})) {
 
               <div class="mb-3">
                       <!-- <label class="form-label" for="selectTypeOpt">Type</label> -->
-                      <a href="../login.php" class="form-control text-center">
+                      <a href="../login.php" class="form-control text-center d-flex align-items-center justify-content-center"><i class='bx bxs-share px-1' ></i>
                       BACK
                       </a>
                       <!-- <select id="selectTypeOpt" class="form-select color-dropdown">
