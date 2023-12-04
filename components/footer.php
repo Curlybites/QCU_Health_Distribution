@@ -1,6 +1,9 @@
-    <!-- / Content -->
 
-    <!-- Footer
+<div class="content-backdrop fade"></div>
+          </div>
+            <!-- / Content -->
+
+            <!-- Footer
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
@@ -31,20 +34,20 @@
                 </div>
               </div>
             </footer> -->
-    <!-- / Footer -->
+            <!-- / Footer -->
 
-    <div class="content-backdrop fade"></div>
-    </div>
-    <!-- Content wrapper -->
-    </div>
-    <!-- / Layout page  #-->
-    </div>
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
 
-    <!-- Overlay -->
-    <div class="layout-overlay layout-menu-toggle"></div>
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
-    <!-- DATA TABLES -->
+<!-- DATA TABLES -->
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
@@ -52,14 +55,7 @@
     <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script src="../js/dataTables.js"></script>
 
-    <!-- <link rel="stylesheet" href="../Datatables/datatables.min.css">
-    <link rel="stylesheet" href="../Datatables/datatables.css">
-    <script src="../Datatables/datatables.js"></script>
-    <script src="../Datatables/datatables.min.js"></script>
-    <script src="../js/dataTables.js"></script>
-    <script src="../Datatables/jquery.js"></script> -->
-
-    <!-- DATA TABLES END -->
+<!-- DATA TABLES END -->
 
 
     <!-- Core JS -->
@@ -83,6 +79,5 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    </body>
-
-    </html>
+  </body>
+</html>
