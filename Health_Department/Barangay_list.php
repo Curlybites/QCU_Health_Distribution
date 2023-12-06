@@ -418,7 +418,7 @@ include '../components/header.php';
                                     <th>Date Created</th>
                                     <th>District</th>
                                     <th>Barangay</th>
-                                    <th>Adress</th>
+                                    <th>Address</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>

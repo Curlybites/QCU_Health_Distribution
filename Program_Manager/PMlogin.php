@@ -87,10 +87,10 @@ if(isset($_SESSION["user"])) {
               if (isset($_POST['login'])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
-                require_once "../connection.php";
+                require_once "../Health_Department/inc/connection.php";
             
                 $sql = "SELECT * FROM user WHERE email = '$email' and roles = 2";
-                $result = mysqli_query($conn, $sql);
+                $result = mysqli_query($con, $sql);
                 $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
                 // echo $password;
                 if ($user) {
