@@ -1,9 +1,10 @@
 <?php 
 session_start();
 
-if(isset($_SESSION{"user_id"})) {
-  header("Location: dashboard.php");
+if(isset($_SESSION["user"])) {
+  header("Location: Dashboard.php");
 }
+unset($_SESSION['user']);
 ?>
 
 <!DOCTYPE html>
@@ -83,29 +84,59 @@ if(isset($_SESSION{"user_id"})) {
               <!-- /Logo -->
               <h5 class="mb-2 text-center">Welcome to Health Department!👋</h5>
               <p class="mb-4 text-center">Please sign-in to your account and start the adventure</p>
-              <?php 
-              if(isset($_POST['login'])){
+              <?php
+              // $password = "magat4";
+              // $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+              // echo $hashed_password;
+              if (isset($_POST['login'])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
-                  require_once "connection.php";
-                  $sql = "SELECT * FROM users WHERE email = '$email'";
-                  $result = mysqli_query($conn, $sql);
-                  $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
-                  if ($user) {
-                    if(password_verify($password, $user['password'])) {
-                      session_start();
-                      $_SESSION["user"] = "yes";
-                      header("Location: Dashboard.php");
-                      die();
-                    }else{
-                      echo "<div class='alert alert-danger'>Password does not match</div>";
+                require_once "../connection.php";
+            
+                $sql = "SELECT * FROM user WHERE email = '$email' and roles = 1";
+                $result = mysqli_query($conn, $sql);
+                $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
+                // echo $password;
+                if ($user) {
+                    if (password_verify($password, $user["password"])) {
+                        session_start();
+                        $_SESSION["user"] = "yes";
+                        header("Location: Dashboard.php");
+                        exit(); 
+                    } else {
+                        $error = "<div class='alert alert-danger'>Invalid credentials</div>";
                     }
-                  }else{
-                    echo "<div class='alert alert-danger'>Email does not match</div>";
+                } else {
+                    $error = "<div class='alert alert-danger'>Invalid credentials</div>";
                 }
-              }
+            }
+            
+           
+            if (isset($error)) {
+                echo $error;
+            }
+              // if(isset($_POST['login'])){
+              //   $email = $_POST["email"];
+              //   $password = $_POST["password"];
+              //     require_once "../connection.php";
+              //     $sql = "SELECT * FROM user WHERE email = '$email'";
+              //     $result = mysqli_query($conn, $sql);
+              //     $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
+              //     if ($user) {
+              //       if(password_verify($password, $user['password'])) {
+              //         session_start();
+              //         $_SESSION["user"] = "yes";
+              //         header("Location: Health_Department/Dashboard.php");
+              //         die();
+              //       }else{
+              //         echo "<div class='alert alert-danger'>Password does not match</div>";
+              //       }
+              //     }else{
+              //       echo "<div class='alert alert-danger'>Email does not match</div>";
+              //   }
+              // }
               ?>
-              <form id="formAuthentication" class="mb-3" action="login.php" method="POST">
+              <form id="formAuthentication" class="mb-3" action="HDlogin.php" method="POST">
 
               <div class="mb-3">
                       <!-- <label class="form-label" for="selectTypeOpt">Type</label> -->
@@ -157,7 +188,7 @@ if(isset($_SESSION{"user_id"})) {
                   </div>
                 </div>
                 <div class="mb-3">
-                  <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
+                  <button class="btn btn-primary d-grid w-100" name="login" type="submit">Sign in</button>
                 </div>
               </form>
 

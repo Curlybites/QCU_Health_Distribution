@@ -1,6 +1,14 @@
 <?php
 
 include '../components/header.php';
+
+session_start();
+
+// if ($_SESSION['role'] !== 'hd') {
+//     header("Location: ../login.php"); // Redirect to login if the role is not admin
+//     exit();
+// }
+
 ?>
 
 <body>
@@ -313,7 +321,7 @@ include '../components/header.php';
                     <div class="dropdown-divider"></div>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="auth-login-basic.html">
+                    <a class="dropdown-item" href="../logout.php">
                       <i class="bx bx-power-off me-2"></i>
                       <span class="align-middle">Log Out</span>
                     </a>
@@ -599,6 +607,7 @@ include '../components/header.php';
                           </div>
                         </div>
                       </li>
+                      
                       <li class="d-flex">
                         <div class="avatar flex-shrink-0 me-3">
                           <span class="avatar-initial rounded bg-label-secondary"><i class="bx bx-football"></i></span>

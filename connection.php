@@ -2,11 +2,11 @@
     $hname = 'localhost';
     $uname = 'root';
     $pass = '';
-    $db = 'qcu_db.sql';
+    $db = 'qcu_db';
 
-    $con = mysqli_connect($hname,$uname,$pass,$db);
+    $conn = mysqli_connect($hname,$uname,$pass,$db);
 
-    if(!$con){
+    if(!$conn){
         die("Cannot connect to database". mysqli_connect_error());    
     }
 
