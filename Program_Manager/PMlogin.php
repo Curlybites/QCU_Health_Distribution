@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-if(isset($_SESSION{"user_id"})) {
+if(isset($_SESSION["user"])) {
   header("Location: dashboard.php");
 }
 ?>
@@ -39,25 +39,25 @@ if(isset($_SESSION{"user_id"})) {
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="./assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="./assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="./assets/css/demo.css" />
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
     <!-- Page CSS -->
     <!-- Page -->
-    <link rel="stylesheet" href="./assets/vendor/css/pages/page-auth.css" />
+    <link rel="stylesheet" href="../assets/vendor/css/pages/page-auth.css" />
     <!-- Helpers -->
-    <script src="./assets/vendor/js/helpers.js"></script>
+    <script src="../assets/vendor/js/helpers.js"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="./assets/js/config.js"></script>
+    <script src="../assets/js/config.js"></script>
   </head>
 
   <body>
@@ -76,63 +76,59 @@ if(isset($_SESSION{"user_id"})) {
                    
                   </span>
                   <span class="app-brand-text demo text-body fw-bolder">
-                    <img src="./assets/img/qc.png" alt="" width="100" class="d-flex align-items-center">
+                    <img src="../assets/img/qc.png" alt="" width="100" class="d-flex align-items-center">
                   </span>
                 </a>
               </div>
               <!-- /Logo -->
-              <h4 class="mb-2 text-center">Welcome to Quezon City! 👋</h4>
+              <h5 class="mb-2 text-center">Welcome to Program Manager! 👋</h5>
               <p class="mb-4 text-center">Please sign-in to your account and start the adventure</p>
               <?php 
-              if(isset($_POST['login'])){
+              if (isset($_POST['login'])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
-                  require_once "connection.php";
-                  $sql = "SELECT * FROM users WHERE email = '$email'";
-                  $result = mysqli_query($conn, $sql);
-                  $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
-                  if ($user) {
-                    if(password_verify($password, $user['password'])) {
-                      session_start();
-                      $_SESSION["user"] = "yes";
-                      header("Location: Dashboard.php");
-                      die();
-                    }else{
-                      echo "<div class='alert alert-danger'>Password does not match</div>";
+                require_once "../connection.php";
+            
+                $sql = "SELECT * FROM user WHERE email = '$email' and roles = 2";
+                $result = mysqli_query($conn, $sql);
+                $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
+                // echo $password;
+                if ($user) {
+                    if (password_verify($password, $user["password"])) {
+                        session_start();
+                        $_SESSION["user"] = "yes";
+                        header("Location: Dashboard.php");
+                        exit(); 
+                    } else {
+                        $error = "<div class='alert alert-danger'>Invalid credentials</div>";
                     }
-                  }else{
-                    echo "<div class='alert alert-danger'>Email does not match</div>";
+                } else {
+                    $error = "<div class='alert alert-danger'>Invalid credentials</div>";
                 }
-              }
+            }
+            
+           
+            if (isset($error)) {
+                echo $error;
+            }
               ?>
-              <form id="formAuthentication" class="mb-3" action="login.php" method="POST">
+              <form id="formAuthentication" class="mb-3" action="PMlogin.php" method="POST">
 
-              <div class="mb-3 text-center">
-                      <label class="form-label " for="selectTypeOpt">Type</label>
+              <div class="mb-3">
+                      <!-- <label class="form-label" for="selectTypeOpt">Type</label> -->
+                      <a href="../login.php" class="form-control text-center d-flex align-items-center justify-content-center"><i class='bx bxs-share px-1' ></i>
+                      BACK
+                      </a>
                       <!-- <select id="selectTypeOpt" class="form-select color-dropdown">
-                        <option value="bg-primary" selected><a href="./Health_Department/login.php">Health Department</a></option>
+                        <option value="bg-primary" selected><a href="">Health Department</a></option>
                         <option value="bg-secondary">Program Manager</option>
                         <option value="bg-success">District</option>
                         <option value="bg-danger">Health Center</option>
                       </select> -->
-                      <div class="dropdown text-center">
-                        <button class="btn px-5 btn-light border dropdown-toggle " type="button" data-bs-toggle="dropdown"  aria-expanded="false">
-                          Select Department
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-start ms-2 px-4 text-center dropdown-menu-light">
-                          <li><a class="dropdown-item" href="./Health_Department/HDlogin.php">Health Department</a></li>
-                          <li><a class="dropdown-item" href="./District/DTlogin.php">District</a></li>
-                          <li><a class="dropdown-item" href="./Health_Center/HClogin.php">Health Center</a></li>
-                          <li><hr class="dropdown-divider"></li
-                          <li><a class="dropdown-item" href="./Program_Manager/PMlogin.php">Program Manager</a></li>
-                         
-                        </ul>
-                      </div>
-                      </div>
               </div>
 
 
-                <!-- <div class="mb-3">
+                <div class="mb-3">
                   <label for="email" class="form-label">Email or Username</label>
                   <input
                     type="text"
@@ -168,9 +164,9 @@ if(isset($_SESSION{"user_id"})) {
                   </div>
                 </div>
                 <div class="mb-3">
-                  <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
+                  <button class="btn btn-primary d-grid w-100" name="login" type="submit">Sign in</button>
                 </div>
-              </form> -->
+              </form>
 
            
             </div>
